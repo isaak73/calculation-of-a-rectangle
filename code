@@ -1,0 +1,15 @@
+// Define the rectangle object with length and width properties
+const rectangle = {
+  length: 5,
+  width: 3
+};
+
+// Calculate the area of the rectangle
+const area = rectangle.length * rectangle.width;
+
+// Calculate the perimeter of the rectangle
+const perimeter = 2 * (rectangle.length + rectangle.width);
+
+// Print the results to the console
+console.log(`The area of the rectangle is ${area}.`);
+console.log(`The perimeter of the rectangle is ${perimeter}.`);
